@@ -6,7 +6,7 @@ import (
 	"os"
 )
 
-func read (banner string) string {
+func Read (banner string) string {
 	if banner != "" {
 		fmt.Printf (banner)
 	}
